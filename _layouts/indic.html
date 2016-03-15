@@ -3,10 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/main.css" media="screen" title="Default style" charset="utf-8">
   </head>
   <body>
-    <div> IndicJS </div>
+    <h1> IndicJS </h1>
+    <h2>{{ page.title }}</h2>
     {{ content }}
+    <footer>
+      <a href="/">Home</a>
+      <a href="/transliteration/">Transliteration</a>
+      <a href="/katapayadi/">Katapayadi</a>
+    </footer>
     <!-- <script src="/jspm_packages/system.js" charset="utf-8"></script> -->
     <script src="https://jspm.io/system@0.19.js"></script>
     <script src="/config.js" charset="utf-8"></script>
