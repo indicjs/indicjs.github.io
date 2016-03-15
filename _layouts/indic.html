@@ -12,7 +12,7 @@
     <script src="/config.js" charset="utf-8"></script>
     <script src="bundle.js" charset="utf-8"></script>
     <script type="text/javascript">
-      System.import("{{ page.url }}main.js");
+      System.import("{{ page.url | remove_first: "/" }}main.js");
     </script>
   </body>
 </html>
