@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.url }}</title>
+  </head>
+  <body>
+    <div> IndicJS </div>
+    {{ content }}
+    <script src="/jspm_packages/system.js" charset="utf-8"></script>
+    <script src="/config.js" charset="utf-8"></script>
+    <script src="bundle.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      System.import("{{ page.url }}main.js");
+    </script>
+  </body>
+</html>

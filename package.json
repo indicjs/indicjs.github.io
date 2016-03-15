@@ -1,0 +1,24 @@
+{
+  "name": "indicjs",
+  "version": "0.1.0",
+  "description": "Collection of Indic tools",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.31"
+  },
+  "jspm": {
+    "dependencies": {
+      "asdofindia/katapayadi": "github:asdofindia/katapayadi@master"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
