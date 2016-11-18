@@ -14,10 +14,10 @@ System.config({
   },
 
   map: {
-    "asdofindia/katapayadi": "github:asdofindia/katapayadi@master",
     "babel": "npm:babel-core@5.8.35",
     "babel-runtime": "npm:babel-runtime@5.8.35",
     "core-js": "npm:core-js@1.2.6",
+    "indicjs/katapayadi": "github:indicjs/katapayadi@master",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },

@@ -13,7 +13,7 @@
   },
   "jspm": {
     "dependencies": {
-      "asdofindia/katapayadi": "github:asdofindia/katapayadi@master"
+      "indicjs/katapayadi": "github:indicjs/katapayadi@master"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
